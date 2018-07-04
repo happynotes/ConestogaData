@@ -1,0 +1,32 @@
+KSATH          	15        
+KSATV          	10         
+KINF           	10         
+KMACSATH       	10       
+KMACSATV       	100         
+DINF           	1         
+DROOT          	1         
+DMAC           	5         
+POROSITY       	1         
+ALPHA          	1         
+BETA           	1.3         
+MACVF          	1         
+MACHF          	5         
+VEGFRAC        	1         
+ALBEDO         	1         
+ROUGH          	1         
+PRCP           	1         
+SFCTMP         	0         
+EC             	1         
+ETT            	1         
+EDIR           	1         
+ROUGH_RIV      	1         
+KRIVH          	1         
+KRIVV          	1         
+BEDTHCK        	1         
+RIV_DPTH       	0.5       
+RIV_WDTH       	1.5       
+
+###############################################################################
+# LSM calibration:                                                            #
+#  Use "#" to comment out the variables if you are not using the LSM module   #
+###############################################################################

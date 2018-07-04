@@ -1,0 +1,51 @@
+#VERBOSE		    0                   # Verbose mode, 0: off, 1: on
+#DEBUG		    0                   # Debug mode, 0: off, 1: on
+INIT_MODE	    3                   # Initialization type 0: Relaxation, 1: use .att file, 3: use .init file
+ASCII_OUTPUT        0                   # Write ASCII output? 0: no, 1: yes
+SPINUP_MODE	    4                   # Spin-up mode, 0: Standard model run, 1: Outputs will be written to .init files
+UNSAT_MODE	    2
+SAT_MODE	    2
+RIV_MODE	    2
+SOLVER		    2
+GSTYPE	    	    1
+MAXK		    0
+DELTA		    0
+ABSTOL	0.0001
+RELTOL	0.001
+INIT_SOLVER_STEP	5e-05
+MAX_SOLVER_STEP	600	# Maximum solver step (DANGER ZONE)
+LSM_STEP	3600	# LSM (or ET) step size (unit: s) 
+START	1985-01-01 00:00:00 	
+END	1995-01-01 00:00:00 	
+OUTPUT_TYPE	0
+STEPSIZE_FACTOR	1
+MODEL_STEPSIZE	    60                 # PIHM step size (unit: s)
+###############################################################################
+# OUTPUT CONTROL:                                                             #
+#  All options are listed below.                                              #
+#  Use "#" to comment out the variables you do not want to output, or set     #
+#  the output interval (in minutes) to 0.                                     #
+###############################################################################
+GW		    86400
+SURF		    86400
+SNOW		    86400
+RIVSTG		    86400
+RECHARGE	    86400
+CMC		    86400
+UNSAT		    86400
+EC                  86400
+ETT                 86400
+EDIR		    86400
+#RIVFLX0             86400
+RIVFLX1	    	    86400
+#RIVFLX2             86400
+#RIVFLX3	            86400
+#RIVFLX4    	    86400
+#RIVFLX5    	    86400
+#RIVFLX6    	    86400
+#RIVFLX7    	    86400
+#RIVFLX8             86400
+#RIVFLX9    	    86400
+FluxSub    	    86400
+FluxSurf    	    86400
+Infil   	    86400
